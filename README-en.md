@@ -50,7 +50,7 @@ This is the simplest and recommended deployment method, getting you up and runni
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Pcject/AutoRestic.git
+git clone git@github.com:Pcject/AutoRestic.git
 cd AutoRestic
 ```
 
@@ -336,7 +336,7 @@ Format: `minute hour day month weekday`
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Pcject/AutoRestic.git
+git clone git@github.com:Pcject/AutoRestic.git
 cd AutoRestic
 ```
 

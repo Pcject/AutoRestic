@@ -5,6 +5,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16-brightgreen.svg)](https://nodejs.org)
 [![Docker](https://img.shields.io/badge/docker-supported-blue.svg)](https://www.docker.com)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Pcject%2FAutoRestic-blue?logo=github)](https://github.com/Pcject/AutoRestic)
+[![Docker Image](https://img.shields.io/badge/Docker-pcject%2Fauto--restic-blue?logo=docker)](https://hub.docker.com/r/pcject/auto-restic)
+
+---
+
+## ⚠️ 免责声明
+
+本项目由 **Trae IDE + doubao-seed-2.0-code** 辅助开发，**未经全面测试**，仅供**交流学习**使用。请勿在生产环境中直接使用，使用时请自行承担风险。
+
+---
 
 ## ✨ 功能特性
 
@@ -40,7 +50,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:Pcject/AutoRestic.git
 cd AutoRestic
 ```
 
@@ -326,7 +336,7 @@ docker logs -f autorestic
 
 1. 克隆项目
 ```bash
-git clone <repository-url>
+git clone git@github.com:Pcject/AutoRestic.git
 cd AutoRestic
 ```
 
