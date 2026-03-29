@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  autorestic:
+    image: autorestic:latest
+    build: .
+    container_name: autorestic
+    ports:
+      - "${PORT:-3001}:3001"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - NODE_ENV=production
+      - JWT_SECRET=${JWT_SECRET:?JWT_SECRET is required! Please set it in .env file}
+      - PORT=3001
+      - RESTIC_PATH=${RESTIC_PATH:-/usr/local/bin/restic}
+      - DATABASE_PATH=${DATABASE_PATH:-./data/autorestic.db}
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3001"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    env_file:
+      - .env
