@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="AutoRestic execution log screenshot with sanitized demo data">
+  <defs>
+    <style>
+      .modal{fill:#303036}.panel{fill:#33343a;stroke:#494d55}.toolbar{fill:#0b1719}.terminal{fill:#071114}.table-head{fill:#29292e}.text{fill:#f2f6f7;font:600 15px Arial,sans-serif}.title{fill:#f8fbfb;font:700 22px Arial,sans-serif}.muted{fill:#a8adb2;font:13px Arial,sans-serif}.small{fill:#d8dddf;font:13px Arial,sans-serif}.accent{fill:#5ee8c4}.btn{fill:#26282d;stroke:#5b6068}.primary{fill:#5ee8c4}.line{stroke:#494d55}.code{fill:#f0f6f6;font:600 13px Menlo,Consolas,monospace}.success{fill:#0d3029;stroke:#2ec9aa}
+    </style>
+  </defs>
+  <rect class="modal" width="1440" height="900"/>
+  <text x="20" y="43" class="title">Execution Log</text><text x="1436" y="39" class="muted" font-size="24">x</text>
+  <rect x="20" y="72" width="1400" height="126" rx="7" class="panel"/>
+  <line x1="306" y1="72" x2="306" y2="198" class="line"/><line x1="593" y1="72" x2="593" y2="198" class="line"/><line x1="881" y1="72" x2="881" y2="198" class="line"/><line x1="1169" y1="72" x2="1169" y2="198" class="line"/><line x1="20" y1="134" x2="1420" y2="134" class="line"/>
+  <text x="32" y="98" class="muted">ID</text><text x="32" y="121" class="text">18</text><text x="319" y="98" class="muted">Repository</text><text x="319" y="121" class="text">ProjectVault</text><text x="606" y="98" class="muted">Task</text><text x="606" y="121" class="text">Nightly Media Backup</text><text x="894" y="98" class="muted">Status</text><text x="894" y="121" class="text">OK</text><text x="1181" y="98" class="muted">Trigger</text><text x="1181" y="121" class="text">System</text>
+  <text x="32" y="160" class="muted">Exit code</text><text x="32" y="184" class="text">0</text><text x="319" y="160" class="muted">Started</text><text x="319" y="184" class="text">2026-01-15 12:40:24</text><text x="606" y="160" class="muted">Finished</text><text x="606" y="184" class="text">2026-01-15 12:40:26</text><text x="894" y="160" class="muted">Duration</text><text x="894" y="184" class="text">2s</text><text x="1181" y="160" class="muted">Command</text><text x="1181" y="184" class="text">restic snapshots --json</text>
+  <rect x="20" y="214" width="47" height="22" rx="11" class="success"/><text x="30" y="230" class="accent" font="12px Arial">OK</text>
+  <rect x="20" y="250" width="1400" height="55" rx="5" class="toolbar"/>
+  <rect x="32" y="262" width="56" height="32" rx="3" class="primary"/><text x="49" y="283" fill="#062a23" font="700 13px Arial">Tail</text>
+  <rect x="89" y="262" width="55" height="32" rx="3" class="btn"/><text x="104" y="283" class="small">Head</text>
+  <rect x="154" y="262" width="132" height="32" rx="3" fill="#293238"/><text x="167" y="283" class="small">400 lines</text>
+  <rect x="296" y="262" width="103" height="32" rx="3" class="btn"/><text x="309" y="283" class="small">Export tab</text>
+  <rect x="410" y="262" width="76" height="32" rx="3" class="btn"/><text x="424" y="283" class="small">Export all</text>
+  <text x="1357" y="283" class="muted">Showing 5/5 lines</text>
+  <text x="20" y="348" class="accent" font="700 14px Arial">Combined</text><text x="110" y="348" class="text">Command</text><text x="175" y="348" class="text">Stdout</text><text x="254" y="348" class="text">Stderr</text>
+  <line x1="20" y1="362" x2="1420" y2="362" class="line"/><line x1="20" y1="362" x2="75" y2="362" stroke="#5ee8c4" stroke-width="2"/>
+  <rect x="20" y="376" width="1400" height="418" rx="5" class="terminal"/>
+  <text x="34" y="407" class="code">$ restic snapshots --json</text>
+  <text x="34" y="445" class="code">{ "hostname": "demo-host", "username": "backup", "program_version": "restic 0.17.x" }</text>
+  <text x="34" y="472" class="code">{ "short_id": "demo-01", "time": "2026-01-15T12:40:09Z", "paths": ["/backup/photos"] }</text>
+  <text x="34" y="499" class="code">{ "short_id": "demo-02", "time": "2026-01-15T12:39:55Z", "paths": ["/backup/projects"] }</text>
+  <text x="34" y="526" class="code">{ "summary": { "total_files_processed": 12942, "total_bytes_processed": 2576980377 } }</text>
+  <text x="34" y="553" class="code">completed successfully</text>
+</svg>

@@ -1,0 +1,29 @@
+services:
+  autorestic:
+    image: pcject/autorestic:latest
+    container_name: autorestic
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:80"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "-", "http://127.0.0.1/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    environment:
+      AUTORESTIC_PORT: "8080"
+      AUTORESTIC_DB_PATH: /app/data/autorestic.db
+      AUTORESTIC_ENC_KEY_PATH: /app/data/autorestic.key
+      AUTORESTIC_AUTH_TOKEN: ${AUTORESTIC_AUTH_TOKEN:?Set AUTORESTIC_AUTH_TOKEN before starting AutoRestic}
+      AUTORESTIC_CORS_ORIGINS: ${AUTORESTIC_CORS_ORIGINS:-}
+      TZ: ${TZ:-Asia/Shanghai}
+    volumes:
+      - autorestic-data:/app/data
+      # Mount host paths you want to back up or restore.
+      # Paths configured in the UI must use the container paths below.
+      # - /your/host/data:/backup/source:ro
+      # - /your/host/restore:/restore
+
+volumes:
+  autorestic-data:

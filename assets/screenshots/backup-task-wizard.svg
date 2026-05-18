@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="AutoRestic backup task wizard screenshot with sanitized demo data">
+  <defs>
+    <style>
+      .bg{fill:#070d0f}.side{fill:#0b1114}.modal{fill:#303036}.panel{fill:#47484e}.line{stroke:#444850}.text{fill:#eef3f4;font:600 16px Arial,sans-serif}.title{fill:#f8fbfb;font:700 20px Arial,sans-serif}.muted{fill:#a8adb2;font:14px Arial,sans-serif}.small{fill:#d8dddf;font:13px Arial,sans-serif}.accent{fill:#5ee8c4}.btn{fill:#26282d;stroke:#5ee8c4}.ghost{fill:#272a2f}.input{fill:#4b4c52;stroke:#65e9c7}.field{fill:#494a50}.danger{fill:#ff6b6b}
+    </style>
+  </defs>
+  <rect class="bg" width="1440" height="900"/>
+  <rect class="side" width="214" height="900"/>
+  <rect x="0" y="181" width="205" height="43" rx="7" fill="#0f3b32"/>
+  <text x="54" y="28" class="text" font-size="14">AutoRestic</text><text x="54" y="45" class="muted" font-size="12">Backup Console</text>
+  <text x="43" y="111" class="small">Dashboard</text><text x="43" y="159" class="small">Repositories</text><text x="43" y="207" class="accent">Backup Tasks</text><text x="43" y="255" class="small">Snapshots</text><text x="43" y="303" class="small">Logs</text><text x="43" y="351" class="small">Settings</text>
+  <rect x="194" y="0" width="1080" height="900" class="modal"/>
+  <text x="224" y="38" class="title">Edit Task</text><text x="1230" y="36" class="muted" font-size="24">x</text>
+  <circle cx="236" cy="65" r="15" fill="#5ee8c4"/><text x="231" y="71" fill="#08312a" font="700 14px Arial">1</text><text x="260" y="71" class="text">Basic</text>
+  <line x1="336" y1="65" x2="466" y2="65" class="line"/><circle cx="492" cy="65" r="15" fill="none" stroke="#777b83"/><text x="487" y="71" class="muted">2</text><text x="516" y="71" class="muted" font-weight="700">Schedule</text>
+  <line x1="610" y1="65" x2="722" y2="65" class="line"/><circle cx="748" cy="65" r="15" fill="none" stroke="#777b83"/><text x="743" y="71" class="muted">3</text><text x="772" y="71" class="muted" font-weight="700">Advanced</text>
+  <line x1="870" y1="65" x2="978" y2="65" class="line"/><circle cx="1004" cy="65" r="15" fill="none" stroke="#777b83"/><text x="999" y="71" class="muted">4</text><text x="1028" y="71" class="muted" font-weight="700">Confirm</text>
+  <line x1="222" y1="119" x2="1245" y2="119" class="line"/>
+
+  <text x="222" y="174" class="text">Task name *</text><text x="743" y="174" class="text">Repository</text>
+  <rect x="222" y="186" width="504" height="34" rx="3" class="input"/><text x="234" y="208" class="small">Nightly Media Backup</text>
+  <rect x="742" y="186" width="504" height="34" rx="3" class="field"/><text x="754" y="208" class="small">MediaVault</text><text x="1218" y="208" class="muted">v</text>
+  <line x1="222" y1="268" x2="1245" y2="268" class="line"/>
+
+  <rect x="222" y="293" width="1024" height="101" rx="3" class="field"/>
+  <text x="234" y="317" class="muted">Paste a restic backup command; AutoRestic extracts paths, excludes, and advanced flags.</text>
+  <rect x="222" y="405" width="96" height="34" rx="3" class="ghost"/><text x="235" y="427" class="small">Parse only</text>
+  <rect x="333" y="405" width="96" height="34" rx="3" class="btn"/><text x="346" y="427" class="accent" font="13px Arial">Parse &amp; save</text>
+  <text x="454" y="427" class="small">Clear</text>
+  <line x1="222" y1="464" x2="1245" y2="464" class="line"/>
+
+  <rect x="222" y="488" width="1000" height="33" rx="3" class="field"/><text x="234" y="510" class="small">/backup/photos</text><text x="1232" y="511" class="danger" font="20px Arial">x</text>
+  <rect x="222" y="530" width="1000" height="33" rx="3" class="field"/><text x="234" y="552" class="small">/backup/projects</text><text x="1232" y="553" class="danger" font="20px Arial">x</text>
+  <rect x="222" y="572" width="1000" height="33" rx="3" class="field"/><text x="234" y="594" class="small">/backup/documents</text><text x="1232" y="595" class="danger" font="20px Arial">x</text>
+  <rect x="222" y="614" width="1000" height="33" rx="3" class="field"/><text x="234" y="636" class="small">/backup/config</text><text x="1232" y="637" class="danger" font="20px Arial">x</text>
+  <rect x="222" y="656" width="98" height="34" rx="3" fill="none" stroke="#60656c" stroke-dasharray="3 3"/><text x="237" y="678" class="small">+ Add path</text>
+  <line x1="222" y1="714" x2="1245" y2="714" class="line"/>
+
+  <text x="222" y="754" class="muted">One exclude pattern per line. Wildcards such as *.tmp, node_modules, and .git are supported.</text>
+  <rect x="222" y="769" width="1000" height="33" rx="3" class="field"/><text x="234" y="791" class="small">*.log</text><text x="1232" y="792" class="danger" font="20px Arial">x</text>
+  <rect x="222" y="811" width="1000" height="33" rx="3" class="field"/><text x="234" y="833" class="small">node_modules</text><text x="1232" y="834" class="danger" font="20px Arial">x</text>
+</svg>

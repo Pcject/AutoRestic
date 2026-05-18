@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="AutoRestic snapshot file browser screenshot with sanitized demo data">
+  <defs>
+    <style>
+      .bg{fill:#070d0f}.side{fill:#0b1114}.modal{fill:#303036}.panel{fill:#3b3c42;stroke:#4b4f57}.table-head{fill:#3c3d43}.row{fill:#323339}.text{fill:#f2f6f7;font:600 17px Arial,sans-serif}.title{fill:#f8fbfb;font:700 22px Arial,sans-serif}.muted{fill:#a8adb2;font:14px Arial,sans-serif}.small{fill:#d8dddf;font:13px Arial,sans-serif}.accent{fill:#5ee8c4}.btn{fill:#26282d;stroke:#5b6068}.primary{fill:#5ee8c4}.danger{fill:#6c343a}.warn{fill:#744a16;stroke:#a97320}.line{stroke:#4b4f57}
+    </style>
+  </defs>
+  <rect class="bg" width="1440" height="900"/>
+  <rect class="side" width="214" height="900"/><text x="54" y="28" class="text" font-size="14">AutoRestic</text><text x="54" y="45" class="muted" font-size="12">Backup Console</text>
+  <rect x="0" y="221" width="205" height="43" rx="7" fill="#0f3b32"/><text x="43" y="250" class="accent">Snapshots</text>
+  <rect x="235" y="200" width="980" height="472" rx="3" class="modal"/>
+  <text x="258" y="241" class="title">Snapshot Files</text><text x="1180" y="239" class="muted" font-size="24">x</text>
+  <text x="258" y="289" class="text">/</text>
+  <rect x="945" y="268" width="101" height="22" rx="11" fill="#183d36" stroke="#4fe3c2"/><text x="963" y="284" class="accent" font="12px Arial">Path readable</text>
+  <rect x="1059" y="264" width="132" height="31" rx="2" class="btn"/><text x="1073" y="284" class="small">Sync current path</text>
+  <rect x="258" y="307" width="303" height="75" rx="7" class="panel"/><text x="272" y="334" class="muted">Current path</text><text x="272" y="367" class="text">/</text>
+  <rect x="573" y="307" width="303" height="75" rx="7" class="panel"/><text x="587" y="334" class="muted">Last index</text><text x="587" y="365" class="text">2026-01-15 12:40:09</text>
+  <rect x="888" y="307" width="303" height="75" rx="7" class="panel"/><text x="902" y="334" class="muted">Entries</text><text x="902" y="365" class="text">2</text>
+  <rect x="258" y="395" width="933" height="48" class="table-head"/>
+  <rect x="271" y="411" width="18" height="18" rx="2" class="primary"/><text x="314" y="424" class="text" font-size="15">Name</text><text x="1029" y="424" class="text" font-size="15">Type</text><text x="1100" y="424" class="text" font-size="15">Size</text>
+  <rect x="258" y="443" width="933" height="47" class="row"/><rect x="271" y="457" width="18" height="18" rx="2" class="primary"/><text x="313" y="471" class="small">folder photos</text><text x="1029" y="471" class="small">Directory</text><text x="1100" y="471" class="small">-</text>
+  <rect x="258" y="490" width="933" height="47" class="row"/><rect x="271" y="504" width="18" height="18" rx="2" fill="none" stroke="#777d86"/><text x="313" y="518" class="small">folder projects</text><text x="1029" y="518" class="small">Directory</text><text x="1100" y="518" class="small">-</text>
+  <rect x="258" y="551" width="933" height="47" class="warn"/><text x="276" y="580" fill="#ffb84d" font="700 16px Arial">!</text><text x="304" y="580" class="small">Selected folders can only be restored. Deleting a snapshot removes the entire snapshot, not a single file.</text>
+  <rect x="258" y="619" width="86" height="34" rx="3" class="primary"/><text x="274" y="641" fill="#062a23" font="700 13px Arial">Restore</text>
+  <rect x="355" y="619" width="112" height="34" rx="3" class="danger"/><text x="374" y="641" class="small">Delete snapshot</text>
+</svg>

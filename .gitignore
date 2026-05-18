@@ -1,0 +1,35 @@
+# Local OS/editor files
+.DS_Store
+
+# Local agent and private planning files
+.claude/
+.superpowers/
+docs/
+
+# Environment and secret material
+.env
+.env.*
+!.env.example
+!.env.docker.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.kdbx
+
+# Local databases and runtime data
+backend/autorestic
+backend/data/
+*.db
+*.db-*
+*.db*
+*.sqlite
+*.sqlite*
+
+# Build outputs and dependencies
+dist/
+node_modules/
+frontend/dist/
+frontend/node_modules/
+frontend/.vite/
+npm-debug.log*

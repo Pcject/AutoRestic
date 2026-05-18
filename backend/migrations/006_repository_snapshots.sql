@@ -1,0 +1,36 @@
+CREATE TABLE IF NOT EXISTS repository_snapshots (
+    repo_id INTEGER NOT NULL,
+    snapshot_id TEXT NOT NULL,
+    short_id TEXT NOT NULL DEFAULT '',
+    time TEXT NOT NULL DEFAULT '',
+    hostname TEXT NOT NULL DEFAULT '',
+    username TEXT NOT NULL DEFAULT '',
+    uid INTEGER NOT NULL DEFAULT 0,
+    gid INTEGER NOT NULL DEFAULT 0,
+    tags TEXT NOT NULL DEFAULT '[]',
+    paths TEXT NOT NULL DEFAULT '[]',
+    tree TEXT NOT NULL DEFAULT '',
+    program_version TEXT NOT NULL DEFAULT '',
+    summary TEXT NOT NULL DEFAULT '{}',
+    backup_start TEXT NOT NULL DEFAULT '',
+    backup_end TEXT NOT NULL DEFAULT '',
+    files_new INTEGER NOT NULL DEFAULT 0,
+    files_changed INTEGER NOT NULL DEFAULT 0,
+    files_unmodified INTEGER NOT NULL DEFAULT 0,
+    dirs_new INTEGER NOT NULL DEFAULT 0,
+    dirs_changed INTEGER NOT NULL DEFAULT 0,
+    dirs_unmodified INTEGER NOT NULL DEFAULT 0,
+    data_blobs INTEGER NOT NULL DEFAULT 0,
+    tree_blobs INTEGER NOT NULL DEFAULT 0,
+    data_added INTEGER NOT NULL DEFAULT 0,
+    data_added_packed INTEGER NOT NULL DEFAULT 0,
+    total_files_processed INTEGER NOT NULL DEFAULT 0,
+    total_bytes_processed INTEGER NOT NULL DEFAULT 0,
+    raw_json TEXT NOT NULL DEFAULT '{}',
+    indexed_at DATETIME NOT NULL DEFAULT (datetime('now')),
+    PRIMARY KEY (repo_id, snapshot_id),
+    FOREIGN KEY (repo_id) REFERENCES repositories(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_repository_snapshots_repo_time ON repository_snapshots(repo_id, time DESC);
+CREATE INDEX IF NOT EXISTS idx_repository_snapshots_repo_hostname ON repository_snapshots(repo_id, hostname);

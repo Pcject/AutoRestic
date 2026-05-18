@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="AutoRestic dashboard screenshot with sanitized demo data">
+  <defs>
+    <style>
+      .bg{fill:#070d0f}.side{fill:#0b1114}.panel{fill:#10181c;stroke:#243139}.card{fill:#11171b;stroke:#29343b}.table-head{fill:#29292e}.row{fill:#1b1b20}.text{fill:#edf3f5;font:600 18px Arial,sans-serif}.title{fill:#f4f8f8;font:700 30px Arial,sans-serif}.muted{fill:#9aa5aa;font:14px Arial,sans-serif}.small{fill:#c8d0d3;font:13px Arial,sans-serif}.num{fill:#f1f5f6;font:700 32px Arial,sans-serif}.accent{fill:#5ee8c4}.line{stroke:#26343a}.pill{fill:#0d3029;stroke:#2ec9aa}.warn{fill:#33260e;stroke:#d39b3a}.btn{fill:#282a30}.btn2{fill:#103c33;stroke:#5ee8c4}
+    </style>
+  </defs>
+  <rect class="bg" width="1440" height="900"/>
+  <rect class="side" width="214" height="900"/>
+  <line x1="214" y1="0" x2="214" y2="900" class="line"/>
+  <rect x="8" y="16" width="32" height="32" rx="5" fill="#122520" stroke="#427b6b"/>
+  <text x="16" y="37" class="accent" font-size="13" font-family="Arial" font-weight="700">AR</text>
+  <text x="54" y="28" class="text" font-size="14">AutoRestic</text>
+  <text x="54" y="45" class="muted" font-size="12">Backup Console</text>
+  <rect x="0" y="85" width="205" height="43" rx="7" fill="#0f3b32"/>
+  <text x="43" y="112" class="accent">Dashboard</text>
+  <text x="43" y="159" class="small">Repositories</text>
+  <text x="43" y="207" class="small">Backup Tasks</text>
+  <text x="43" y="255" class="small">Snapshots</text>
+  <text x="43" y="303" class="small">Logs</text>
+  <text x="43" y="351" class="small">Settings</text>
+
+  <rect x="214" y="0" width="1226" height="70" fill="#081011"/>
+  <text x="238" y="24" class="muted">Dashboard</text>
+  <text x="238" y="53" class="title" font-size="26">Dashboard</text>
+  <rect x="1365" y="23" width="78" height="22" fill="#08241f" stroke="#38c9a9"/>
+  <text x="1373" y="38" class="accent" font-size="12" font-family="Arial">Token set</text>
+
+  <text x="238" y="118" class="title">Dashboard</text>
+  <text x="238" y="141" class="muted">Check repository sync, snapshot health, running tasks, and recent failures.</text>
+  <rect x="1395" y="95" width="62" height="32" rx="2" class="btn"/>
+  <text x="1414" y="116" class="small">Refresh</text>
+
+  <rect x="238" y="162" width="291" height="146" rx="3" class="card"/>
+  <text x="262" y="197" class="muted">Repositories</text>
+  <text x="262" y="246" class="num">2</text>
+  <text x="262" y="283" class="small">0 background sync jobs running</text>
+  <rect x="545" y="162" width="292" height="146" rx="3" class="card"/>
+  <text x="570" y="197" class="muted">File index alerts</text>
+  <text x="570" y="246" class="num">0</text>
+  <text x="570" y="283" class="small">All demo indexes are healthy</text>
+  <rect x="853" y="162" width="291" height="146" rx="3" class="card"/>
+  <text x="878" y="197" class="muted">Backup tasks</text>
+  <text x="878" y="246" class="num">3</text>
+  <text x="878" y="283" class="small">2 scheduled tasks enabled</text>
+  <rect x="1160" y="162" width="291" height="146" rx="3" class="card"/>
+  <text x="1185" y="197" class="muted">Recent failures</text>
+  <text x="1185" y="246" class="num">0</text>
+  <text x="1185" y="283" class="small">No failed runs in last 20 logs</text>
+
+  <rect x="238" y="324" width="1188" height="306" rx="3" class="panel"/>
+  <text x="263" y="366" class="text">Repository Status</text>
+  <rect x="263" y="393" width="1162" height="48" class="table-head"/>
+  <text x="277" y="423" class="text" font-size="15">Repository</text>
+  <text x="540" y="423" class="text" font-size="15">Sync</text>
+  <text x="663" y="423" class="text" font-size="15">File Index</text>
+  <text x="783" y="423" class="text" font-size="15">Integrity</text>
+  <text x="949" y="423" class="text" font-size="15">Snapshots</text>
+  <text x="1033" y="423" class="text" font-size="15">Last Sync</text>
+  <text x="1200" y="423" class="text" font-size="15">Actions</text>
+  <rect x="263" y="441" width="1162" height="84" class="row"/>
+  <rect x="263" y="525" width="1162" height="84" class="row"/>
+  <line x1="263" y1="525" x2="1425" y2="525" class="line"/>
+  <text x="277" y="488" class="text" font-size="14">MediaVault</text>
+  <rect x="540" y="472" width="65" height="20" rx="10" class="pill"/><text x="554" y="487" class="accent" font-size="12" font-family="Arial">Done</text>
+  <rect x="663" y="472" width="78" height="20" rx="10" class="pill"/><text x="676" y="487" class="accent" font-size="12" font-family="Arial">Healthy</text>
+  <text x="785" y="488" class="small">Reported</text><text x="949" y="488" class="text" font-size="14">649</text><text x="1033" y="478" class="small">2026-01-15</text><text x="1033" y="499" class="small">12:40:09</text>
+  <rect x="1200" y="454" width="65" height="28" rx="3" class="btn"/><text x="1220" y="473" class="small">View</text><rect x="1274" y="454" width="68" height="28" rx="3" class="btn"/><text x="1294" y="473" class="small">Sync</text>
+  <text x="277" y="571" class="text" font-size="14">ProjectVault</text>
+  <rect x="540" y="555" width="65" height="20" rx="10" class="pill"/><text x="554" y="570" class="accent" font-size="12" font-family="Arial">Done</text>
+  <rect x="663" y="555" width="78" height="20" rx="10" class="pill"/><text x="676" y="570" class="accent" font-size="12" font-family="Arial">Healthy</text>
+  <text x="785" y="571" class="small">Reported</text><text x="949" y="571" class="text" font-size="14">1564</text><text x="1033" y="561" class="small">2026-01-15</text><text x="1033" y="582" class="small">12:42:27</text>
+  <rect x="1200" y="537" width="65" height="28" rx="3" class="btn"/><text x="1220" y="556" class="small">View</text><rect x="1274" y="537" width="68" height="28" rx="3" class="btn"/><text x="1294" y="556" class="small">Sync</text>
+
+  <rect x="238" y="647" width="1188" height="226" rx="3" class="panel"/>
+  <text x="263" y="687" class="text">Recent Executions</text>
+  <rect x="263" y="714" width="1162" height="48" class="table-head"/>
+  <text x="277" y="743" class="text" font-size="14">ID</text><text x="347" y="743" class="text" font-size="14">Command</text><text x="704" y="743" class="text" font-size="14">Repository</text><text x="842" y="743" class="text" font-size="14">Status</text><text x="963" y="743" class="text" font-size="14">Trigger</text><text x="1052" y="743" class="text" font-size="14">Duration</text><text x="1165" y="743" class="text" font-size="14">Started</text>
+  <rect x="263" y="762" width="1162" height="55" class="row"/>
+  <rect x="263" y="817" width="1162" height="55" class="row"/>
+  <text x="277" y="794" class="small">18</text><text x="347" y="794" class="small">restic snapshots --json</text><text x="704" y="794" class="small">ProjectVault</text><rect x="842" y="779" width="60" height="20" rx="10" class="pill"/><text x="858" y="794" class="accent" font-size="12" font-family="Arial">OK</text><text x="963" y="794" class="small">System</text><text x="1052" y="794" class="small">2s</text><text x="1165" y="794" class="small">2026-01-15 12:40:24</text>
+  <text x="277" y="849" class="small">17</text><text x="347" y="849" class="small">restic cat config</text><text x="704" y="849" class="small">ProjectVault</text><rect x="842" y="834" width="60" height="20" rx="10" class="pill"/><text x="858" y="849" class="accent" font-size="12" font-family="Arial">OK</text><text x="963" y="849" class="small">System</text><text x="1052" y="849" class="small">3s</text><text x="1165" y="849" class="small">2026-01-15 12:40:21</text>
+</svg>
